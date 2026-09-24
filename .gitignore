@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignore the actual data files but keep the folder structure
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.xlsx
+
+# Keep the placeholder
+!data/raw/.gitkeep
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Data files — never commit raw data
+data/raw/*.csv
+data/raw/*.zip
+!data/raw/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
