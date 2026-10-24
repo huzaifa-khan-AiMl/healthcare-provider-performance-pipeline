@@ -61,8 +61,6 @@ For full details, code, and caveats, please refer to the [EDA notebook](notebook
   
 - **Skewness in Data:** In a large prototype cohort (Internal Medicine, HCPCS 99214, office setting; 44,818 providers), the submitted-to-allowed ratio exhibits a right skew (skewness of 2.9). This characteristic indicates that median and MAD-based methods are being considered for analysis. Note that this observation pertains to a specific cohort and should not be generalized.
 
-This revised format provides a clearer and more comprehensive overview of key insights while enhancing readability.
-
 ![Specialty markup ratio](notebooks/charts/q1_specialty_markup.png)
  
 ![Peer-group markup distribution](notebooks/charts/q3_peer_distribution.png)
